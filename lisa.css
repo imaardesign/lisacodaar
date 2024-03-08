@@ -1,0 +1,615 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-size: 20px;
+    background: linear-gradient();
+    background-attachment: fixed;
+    height: 100vh;
+    transition-duration: 5s;
+    scroll-behavior: smooth;
+
+}
+
+
+/* NAVBAR 1*/
+.lisahead1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #27ae60;
+    background-attachment: fixed;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.lisahead1 nav{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.lisahead1 nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lisahead1 nav ul li:hover{
+    color: red;
+}
+
+.lisahead1 nav ul li a{
+    text-decoration: none;
+}
+
+.lisahead1 nav ul li a:hover{
+    text-decoration: #000;
+}
+
+.lisahead1 p{
+    padding: 20px;
+    font-size: 25px;
+    border-bottom: solid #ecf0f1 2px;
+    border-radius: 10px;
+    background-color: #f39c12;
+}
+
+
+
+/*LISAHEAD1*/
+
+/*LISAHEAD2*/
+.lisahead2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ecf0f1;
+    border-bottom: solid 0.1px grey ;
+
+}
+
+.lisahead2 img{
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 150px;
+}
+
+.lisahead2 nav{
+    margin-top: 50px;
+}
+.lisahead2 nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.lisahead2 nav ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* PREMIERE DIVISIONS*/
+
+.present{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-attachment: fixed;
+    background-image: url(image/sheet.jpg);
+    animation: anime 5s linear infinite;
+}
+
+
+
+
+
+
+@keyframes anime{
+    0%{
+        background-image: url(image/sheet.jpg);
+        
+    }
+    50%{
+        background-image: url(image/coding.jpg);
+        color: white;
+    }
+
+    100%{
+        background-image: url(image/sheet.jpg);
+    }
+
+}
+/*
+.present:hover{
+
+    background-image: url(image/coding.jpg);
+    color: white;
+    transition: all ease-in-out;
+
+}
+*/
+
+.present h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: white;
+    text-decoration: underline;
+}
+
+.present h1 :hover{
+    margin-bottom: 50px;
+    font-size: 70px;
+    color: red;
+    text-decoration: underline;
+}
+
+.present h3{
+    font-size: 50px;
+}
+
+
+.present h4{
+    color: white;
+}
+
+
+.present button{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-bottom: solid white 5px;
+    transform: all 0.5 ease-in;
+}
+
+.present button:hover{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+    border-bottom: solid white 5px;
+}
+
+.present button a{
+    text-decoration: none;
+}
+/*PREMIERE DIVISIONS*/
+
+
+
+/* PART2 */
+
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.part2 .left{
+    padding: 20px;
+
+}
+
+.part2 .right{
+    width: 560px;
+    height: 350px;
+    border: solid white 5px;
+    padding: 20px;
+}
+
+/* PART2 */
+
+
+
+/*PART3*/
+
+.part3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.part3 .left{
+    width: 560px;
+    height: 350px;
+    overflow: scroll;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+.part3 .left h1{
+    font-size: 35px;
+    color: #27ae60;
+}
+
+
+/*partie quatre*/
+
+.part4{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin-top: 60px;
+    padding: 50px;
+    border-top: solid grey 1px;
+}
+
+.part4 .left{
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.part4 .left h1{
+    animation: hello 3s linear infinite;
+    color: black;
+}
+@keyframes hello{
+    0%{
+        color: #000;
+    }
+
+    25%{
+        color: green;
+    }
+
+    50%{
+        color: red;
+    }
+
+    100%{
+        color: orange;
+    }
+}
+
+.part4 .left p{
+    animation: para 2s linear 1;
+}
+@keyframes para{
+    from{
+        opacity: 0%;
+        transform: translateY(-500px);
+    }
+
+    to{
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+
+.part4 .lisa {
+    margin-left: 50px;
+}
+
+
+
+.part4 .lisa img{
+    width: 350px;
+    height: 490px;
+}
+
+.part4 .left strong{
+    color: green;
+}
+
+/*Animation image lisa*/
+
+.part4 .lisa img{
+    animation: lisa 1s ease-in infinite;
+    animation-iteration-count: 1;
+}
+
+@keyframes lisa{
+    from{
+        transform: translateX(-500px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+/* PARTIE 5*/
+.part5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+}
+
+.part5 .left{
+    margin-top: 10px;
+    padding: 20px;
+    border: solid grey 2px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #27ae60;
+}
+
+.part5 .center{
+    margin-top: 10px;
+    padding: 20px;
+    border: solid grey 2px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #f39c12;
+}
+
+.part5 .center strong{
+    font-size: larger;
+}
+
+/* FORMULAIRE*/
+.part5 .right{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px ;
+    background-color: #27ae60;
+
+}
+
+
+.part5 .right label{
+    margin-top: 8px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.part5 .right input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.part5 .right .user{
+    position: relative;
+}
+
+.part5 .right .user i{
+    position: absolute;
+    left: 88%;
+    top: 18px;
+    transform: translateY(-50%);
+}
+
+
+
+/* SEXE */
+.part5 .right select{
+    padding: 5px;
+}
+.part5 .right select option{
+    font-size: 20px;
+}
+/* SEXE */
+
+.part5 .right button{
+    border-radius: 10px;
+}
+/* FORMULAIRE*/
+
+
+
+
+/* Parti 6 galerie*/
+.part6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    animation: back 20s linear infinite;
+    
+}
+
+
+
+.part6 .card{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.part6 .card1 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    animation: card1 3s linear 1;
+}
+.part6 .card1 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+.part6 .card2{
+    animation: card2 5s linear infinite;;
+}
+.part6 .card2 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    animation: card2 5s linear infinite;
+}
+.part6 .card2 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+
+
+.part6 .card4{
+    animation: card2 5s linear infinite;;
+}
+
+.part6 .card3 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.part6 .card3 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+
+
+.part6 .card4{
+    animation: card4 5s linear infinite;;
+}
+
+.part6 .card4 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.part6 .card4 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+.part6 .card5 {
+    animation: card3 5s linear infinite;;
+}
+
+.part6 .card5 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.part6 .card5 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+
+.part6 .card6 {
+    animation: card6 5s linear infinite;;
+}
+.part6 .card6 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.part6 .card6 img:hover{
+    width: 610px;
+    height: 410px;
+}
+
+
+.part6 .card p{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    padding-left: 30px;
+    background-color: #000;
+    color: white;
+}
+
+footer .left{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+footer .left h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid white 3px;
+}
+footer .left #droit{
+    margin-top: 35px;
+}
+
+footer .center{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+footer .center h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid white 3px;
+
+}
+
+footer .right{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+footer .right h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid white 3px;
+
+}
+footer .right ul li{
+    display: inline-block;
+}
+
+footer .right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
+
